@@ -1,0 +1,19 @@
+# Model parameters
+input_dim: 29  
+hidden_dim: 500
+z_dim: 20
+
+# Training parameters
+epochs: 500
+learning_rate: 0.001
+batch_size: 64
+
+# Data parameters
+sample_size: 5000  # This is used in the preprocess function
+
+# Paths
+data_path: 'creditcard.csv'
+model_save_path: 'vae_model.pth'
+
+# Random seed for reproducibility
+random_seed: 42
